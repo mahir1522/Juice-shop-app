@@ -12,14 +12,6 @@ This web application is designed for a Juice Shop that connects to a MongoDB dat
 - After placing an order, the user is shown an order confirmation with all the order details, Sub Total (total cost of all juices), Tax (@ 13%), and Total Cost (Sub Total + Tax).
 - A separate page is available to view all orders in a tabular format. The table displays all order information, Sub Total, Tax (@ 13%), and Total Cost (Sub Total + Tax).
 
-## Wireframes
-
-![Order Form Page](url-to-order-form-image)
-![Order Success Page](url-to-order-success-image)
-![View Orders Page](url-to-view-orders-image)
-
-Replace `url-to-order-form-image`, `url-to-order-success-image`, and `url-to-view-orders-image` with the actual URLs of your wireframe images.
-
 ## Usage
 
 To run this application locally, follow these steps:
