@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Finals</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mahir Patel/ 8825655</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="/">Order Juices</a></li>
+            <li><a href="/allorder">View Orders</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        
+        <p>Thank you for your order</p>
+        <% if(typeof(total) !='undefined'){ %>
+        <h2>Here is your receipt: </h2>
+        <table>
+                <tr>
+                    <th>Name</th>
+                    <td>
+                        <%=name %>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Phone</th>
+                    <td>
+                        <%=number %>
+                    </td>
+                </tr>
+                <% if(mango !=0){%>
+                    <tr>
+                        <th>Mango juices</th>
+                        <td>
+                            <%=mango %>
+                        </td>
+                    </tr>
+                <% } %>
+                <% if(berry !=0){%>
+                    <tr>
+                        <th>Berry juices</th>
+                        <td>
+                            <%=berry %>
+                        </td>
+                    </tr>
+                <% } %>
+                <% if(apple !=0){%>
+                    <tr>
+                        <th>Apple juices</th>
+                        <td>
+                            <%=apple %>
+                        </td>
+                    </tr>
+                <% } %>
+                <% if(subTotal !=0){%>
+                    <tr>
+                        <th>Sub Total</th>
+                        <td>
+                            <%=subTotal.toFixed(2) %>
+                        </td>
+                    </tr>
+                <% } %>
+                <% if(tax !=0){%>
+                    <tr>
+                        <th>Tax</th>
+                        <td>
+                            <%=tax.toFixed(2) %>
+                        </td>
+                    </tr>
+                <% } %>
+                <% if(total !=0){%>
+                    <tr>
+                        <th>Total</th>
+                        <td>
+                            <%=total.toFixed(2) %>
+                        </td>
+                    </tr>
+                <% } %>
+                
+            </table>
+            <% } %>
+
+                
+
+    </main>
+    <hr>
+    <footer>
+        <p>&copy;Copyright - Mahir Patel</p>
+    </footer>
+</body>
+
+</html>

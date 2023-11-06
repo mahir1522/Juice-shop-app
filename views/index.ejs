@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Finals</title>
+</head>
+<body>
+    <header> 
+        <h1>Mahir Patel/ 8825655</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="/">Order Juices</a></li>
+            <li><a href="/allorder">View Orders</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+
+        <h1>Order Juices</h1>
+
+        <form method="post" action="">
+
+
+            <label for="name">Name*:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+
+            <br>
+            <br>
+
+            <label for="phone">Phone*:</label>
+            <input type="text" name="number" id="number" placeholder="Enter your number">
+
+            <br>
+            <br>
+
+            <label for="mango">Mango Juices : </label>
+            <input type="number" name="mango" id="mango">
+
+            <br>
+            <br>
+
+            <label for="berry">Berry Juices : </label>
+            <input type="number" name="berry" id="berry">
+
+            <br>
+            <br>
+
+            <label for="apple">Apple Juices : </label>
+            <input type="number" name="apple" id="apple">
+
+            <input type="submit" value="Submit" name="submit" id="submit">
+
+        </form>
+
+    </main>
+    
+    <hr>
+    <div>
+        <% if(typeof(errors) !='undefined' ){ for(var error of errors){ %>
+            <p class="errors">
+                <%= error.msg %>
+            </p>
+            <% } } %>
+    </div>
+
+    <hr>
+    <footer>
+        <p>&copy;Copyright - Mahir Patel</p>
+    </footer>
+</body>
+</html>

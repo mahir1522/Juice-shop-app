@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    border: 2px solid black;
+    width: 800px;
+
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin: 5px 15px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+#submit{
+    margin: 35px 150px 0px 0px;
+    width: 100px;
+    height: 40px;
+}
+main{
+    border: 2px solid black;
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+}
+ form input{
+    float: right;
+    height: 20px;
+}
+
+form label{
+    font-size: 1.1rem;
+}
+
+footer{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 10px;
+    /* padding: 20px; */
+
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+div p{
+    color: red;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+#mainn{
+    margin: auto;
+    height: 350px;
+    padding: 10px;
+    width: 750px;
+}
