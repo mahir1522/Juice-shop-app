@@ -14,6 +14,8 @@ This web application is designed for a Juice Shop that connects to a MongoDB dat
 
 ## Wireframes
 ![Order Form  Page](https://github.com/mahir1522/Juice-shop-app/blob/main/Screenshot%202023-04-20%20165647.png) 
+![Order Success Page]()
+![View Orders Page]()
 
 ## Usage
 
