@@ -12,10 +12,12 @@ This web application is designed for a Juice Shop that connects to a MongoDB dat
 - After placing an order, the user is shown an order confirmation with all the order details, Sub Total (total cost of all juices), Tax (@ 13%), and Total Cost (Sub Total + Tax).
 - A separate page is available to view all orders in a tabular format. The table displays all order information, Sub Total, Tax (@ 13%), and Total Cost (Sub Total + Tax).
 
+## Wireframes
+![Order Form  Page]() 
+
 ## Usage
 
 To run this application locally, follow these steps:
 
-1. Clone the repository: `https://github.com/mahir1522/Juice-shop-app.git`
-2. 
+1. Clone the repository: git clone: `https://github.com/mahir1522/Juice-shop-app.git`
 
