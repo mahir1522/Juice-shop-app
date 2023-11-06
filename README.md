@@ -13,7 +13,7 @@ This web application is designed for a Juice Shop that connects to a MongoDB dat
 - A separate page is available to view all orders in a tabular format. The table displays all order information, Sub Total, Tax (@ 13%), and Total Cost (Sub Total + Tax).
 
 ## Wireframes
-![Order Form  Page]() 
+![Order Form  Page](https://github.com/mahir1522/Juice-shop-app/blob/main/Screenshot%202023-04-20%20165647.png) 
 
 ## Usage
 
