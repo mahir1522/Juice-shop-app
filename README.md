@@ -21,5 +21,8 @@ This web application is designed for a Juice Shop that connects to a MongoDB dat
 
 To run this application locally, follow these steps:
 
-1. Clone the repository: git clone: `https://github.com/mahir1522/Juice-shop-app.git`
+1. Clone the repository: `https://github.com/mahir1522/Juice-shop-app.git`
+2. Install dependencies: `npm install`
+3. Start the application: `npm start`
+4. Open your web browser and navigate to `http://localhost:3000` to access the Juice Shop application.
 
